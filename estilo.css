@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #adb5ff;
+}
+
+a:hover {
+    color: white;
+}
+
+.maior::first-letter {
+    font-size: 1.5em;
+}
+
+body {
+    overflow-y: auto; /* Permite rolagem vertical */
+}
+
+#cabecalho {
+    background-color: #1a3274;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.m {
+    color: #ffadca;
+    font-size: 2em;
+}
+
+.m:hover {
+    color: #ffadca;
+}
+
+.f {
+    color: #ffadca;
+    font-size: 1.5em;
+}
+
+.f:hover {
+    color: #ffadca;
+}
+
+.links {
+    align-content: center;
+}
+
+.links:hover {
+    color: black;
+}
+
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(backg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.foto {
+    width: 25vw;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    background-color: azure;
+    margin-top: 10px;
+    box-shadow: 0 3px 10px 0 #CCC;
+}
+
+.foto img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.ola {
+    width: 75vw;
+    text-align: center;
+}
+
+#sobre {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#habilidades {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.back, .front, .bd {
+    background-color: #e0ffff;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 15px;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: auto auto;
+    box-shadow: 0 3px 10px 0 #CCC;
+}
+
+.front {
+    background-color: #ffadca;
+}
+
+.bd {
+    background-color: #e0ffe7;
+}
+
+#sobre, #habilidades, #portfolio, #contatos {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.habilidades-secao {
+    background-color: #f8f8f8;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px 0 #CCC;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#contatos a {
+    display: block;
+    margin: 10px 0;
+    color: #ffadca;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+#contatos a:hover {
+    color: white;
+}
+
+#contatos i {
+    margin-right: 8px;
+}
+
+#rodape {
+    background-color: rgba(26, 50, 116, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
